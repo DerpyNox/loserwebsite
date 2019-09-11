@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body> </body>
+
+<p>
+  <center><button id="hoveer" onclick="bruh();" class="cum">
+    bruh
+  </button>
+  </center>
+  </p>
+  
+  
+  
+  <div class="div" id="loser">
+    
+    <button class="close" id="close">
+      X
+    </button>
+    <center>
+    <p class="modal" id="modal">
+      you've been nae naed
+    </p>
+    </center>
+    
+
+  
+    </div>
+    <div>
+         <center> <button class="cum" id="imgho">
+      IMG Hover
+    </button>
+    </center>
+    
+  </div>
+  
+  <br>
+  <br>
+  
+  <div class="bruh" id="imgdiv">
+   <center> <img src="https://cdn.glitch.com/6f5d4d79-5e21-4711-99de-64d3dc39cd79%2FScreen_Shot_2018-11-06_at_3.13.34_PM.jpg?v=1568149728938">
+    </center>
+     
+  </div>
+  
+  
+  <script>
+  
+    function bruh() {
+      document.getElementById("loser").style.visibility = "visible";
+    }
+    
+                                            
+                                                      
+    
+    
+    
+  </script> 
+  
+  <script>
+  
+    
+    document.getElementById("imgho").addEventListener("mouseover", imghov);
+    
+    document.getElementById("imgho").addEventListener("mouseout", imghovo);
+    
+    function imghov() {
+      document.getElementById("imgdiv").style.visibility = "visible";
+    }
+    
+    function imghovo() {
+      document.getElementById("imgdiv").style.visibility = "hidden";
+    }
+  
+  </script>
+  
+  
+</html>
